@@ -63,5 +63,21 @@
     "tags": [
       { "text": "Paper", "link": "https://dl.acm.org/doi/pdf/10.1145/3627673.3679841" }
     ]
+  },
+  {
+    "title": "Multi-Scale Spatio-Temporal Transformers with Prompt Learning for Traffic Prediction",
+    "displayTitle": "",
+    "authors": "Ruibin Zeng, Lingfeng Niu, <strong>Minglong Lei*<strong>, Yu-Hong Dai",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 4,
+    "venue": "TVT",
+    "year": "2024",
+    "highlight": "",
+    "thumbnail": "assets/publications/placeholder/CIKM2024-PKD-STTN.png",
+    "tags": [
+      { "text": "Paper", "link": "https://dl.acm.org/doi/pdf/10.1145/3627673.3679841" }
+    ]
   }
 ]

@@ -43,7 +43,7 @@
     "venue": "AAAI 2025",
     "year": "2025",
     "highlight": "(Poster)",
-    "thumbnail": "assets/publications/placeholder/DST-Mamba.png",
+    "thumbnail": "assets/publications/placeholder/AAAI2025-DST-Mamba.png",
     "tags": [
       { "text": "Paper", "link": "https://ojs.aaai.org/index.php/AAAI/article/view/33281" }
     ]
@@ -51,7 +51,7 @@
   {
     "title": "Spatio-Temporal Transformer Network with Physical Knowledge Distillation for Weather Forecasting",
     "displayTitle": "",
-    "authors": "20. Jing He, Junzhong Ji, <strong>Minglong Lei*</strong>",
+    "authors": "Jing He, Junzhong Ji, <strong>Minglong Lei*</strong>",
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
@@ -59,7 +59,7 @@
     "venue": "CIKM 2024",
     "year": "2024",
     "highlight": "(Regular Paper)",
-    "thumbnail": "assets/publications/placeholder/DST-Mamba.png",
+    "thumbnail": "assets/publications/placeholder/CIKM2024-PKD-STTN.png",
     "tags": [
       { "text": "Paper", "link": "https://dl.acm.org/doi/pdf/10.1145/3627673.3679841" }
     ]

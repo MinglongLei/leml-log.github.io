@@ -18,31 +18,18 @@
     ]
   },
   {
-    "title": "Another Great Research Work on Machine Learning",
-    "authors": "Collaborator A, <strong>Your Name</strong>, Collaborator B",
+    "title": "Progressive Graph Structure Adjustment for Homophily Shift Adaptation",
+    "authors": "Hongwei Wen, Can Zhang, Haoyu He, Hanyuan Hang, <strong>Minglong Lei</strong>",
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
     "featuredOrder": 2,
-    "venue": "NeurIPS 2024",
-    "year": "2024",
+    "venue": "ICML 2026",
+    "year": "2026",
     "highlight": "(Spotlight)",
     "thumbnail": "assets/publications/placeholder/paper-thumb.png",
     "tags": [
       { "text": "Paper", "link": "#" }
-    ]
-  },
-  {
-    "title": "Preprint Example with Demo Preview",
-    "authors": "<strong>Your Name</strong>, Collaborator C, Collaborator D",
-    "type": "preprint",
-    "isFirstAuthor": true,
-    "showOnHomepage": false,
-    "venue": "Under Review",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
-    "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" }
     ]
   }
 ]

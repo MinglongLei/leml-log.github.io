@@ -517,6 +517,9 @@ function getHighlightBadge(highlightText) {
     if (text.includes('spotlight')) {
         return 'Spotlight';
     }
+    if (text.includes('regular paper')) {
+        return 'Regular Paper';
+    }
     return '';
 }
 
@@ -549,7 +552,7 @@ function getVenueShortName(venueStr, year) {
     let s = venueStr.replace(/\d{4}/g, '').trim();
     let suffix = '';
 
-    const conferences = ['NeurIPS', 'ICML', 'CVPR', 'ICCV', 'ECCV', 'ICRA', 'AAAI', 'GLOBECOM', 'INFOCOM', 'MOBICOM'];
+    const conferences = ['NeurIPS', 'ICML', 'ICLR', 'CVPR', 'ICCV', 'ECCV', 'MM', 'ICRA', 'AAAI', 'IJCAI', 'SIGKDD', 'ICDE', 'SIGMOD', 'SIGIR', 'VLDB', 'CIKM', 'WWW', 'ACL', 'EMNLP', 'COLING', 'MICCAI', 'BIBM'];
     for (const conf of conferences) {
         if (s.includes(conf)) {
             if (year) {
@@ -566,13 +569,36 @@ function getVenueShortName(venueStr, year) {
         return 'ArXiv' + revisionSuffix;
     }
 
+    if (s.includes('TPAMI')) return 'IEEE TDSC' + revisionSuffix;
+    if (s.includes('TKDE')) return 'IEEE TKDE' + revisionSuffix;
+    if (s.includes('TIFS')) return 'IEEE TIFS' + revisionSuffix;
     if (s.includes('TDSC')) return 'IEEE TDSC' + revisionSuffix;
+    if (s.includes('TPDS')) return 'IEEE TPDS' + revisionSuffix;
     if (s.includes('TMC')) return 'IEEE TMC' + revisionSuffix;
-    if (s.includes('JSAC')) return 'IEEE JSAC' + revisionSuffix;
-    if (s.includes('TGCN')) return 'IEEE TGCN' + revisionSuffix;
-    if (s.includes('LNET')) return 'IEEE LNET' + revisionSuffix;
+    if (s.includes('TIP')) return 'IEEE TIP' + revisionSuffix;
+    if (s.includes('TMM')) return 'IEEE TMM' + revisionSuffix;
+    if (s.includes('TSP')) return 'IEEE TSP' + revisionSuffix;
+    if (s.includes('TNNLS')) return 'IEEE TNNLS' + revisionSuffix;
+    if (s.includes('TCYB')) return 'IEEE TCYB' + revisionSuffix;
+    if (s.includes('TEC')) return 'IEEE TEC' + revisionSuffix;
+    if (s.includes('TFS')) return 'IEEE TFS' + revisionSuffix;
+    if (s.includes('TAC')) return 'IEEE TAC' + revisionSuffix;
+    if (s.includes('TITS')) return 'IEEE TITS' + revisionSuffix;
+    if (s.includes('TVT')) return 'IEEE TVT' + revisionSuffix;
+    if (s.includes('TMI')) return 'IEEE TMI' + revisionSuffix;
+    if (s.includes('TBD')) return 'IEEE TBD' + revisionSuffix;
+    if (s.includes('TETCI')) return 'IEEE TETCI' + revisionSuffix;
     if (s.includes('TNSE')) return 'IEEE TNSE' + revisionSuffix;
+    if (s.includes('TCSS')) return 'IEEE TCSS' + revisionSuffix;
+    if (s.includes('JBHI')) return 'IEEE JBHI' + revisionSuffix;
+    if (s.includes('TACL')) return 'IEEE TACL' + revisionSuffix;
     if (s.includes('IOTJ') || s.includes('IoTJ')) return 'IEEE IoTJ' + revisionSuffix;
+    if (s.includes('PR')) return 'PR' + revisionSuffix;
+    if (s.includes('NN')) return 'NN' + revisionSuffix;
+    if (s.includes('KBS')) return 'KBS' + revisionSuffix;
+    if (s.includes('ESWA')) return 'ESWA' + revisionSuffix;
+    if (s.includes('EAAI')) return 'EAAI' + revisionSuffix;
+
 
     return s || 'Preprint';
 }
@@ -584,24 +610,60 @@ function getVenueFullName(venueStr) {
 
     const s = venueStr.replace(/\d{4}/g, '').trim();
 
+    if (s.includes('TPAMI')) return 'IEEE Transactions on Pattern Analysis and Machine Intelligence';
+    if (s.includes('TKDE')) return 'IEEE Transactions on Knowledge and Data Engineerin';
+    if (s.includes('TIFS')) return 'IEEE Transactions on Information Forensics and Security';
     if (s.includes('TDSC')) return 'IEEE Transactions on Dependable and Secure Computing';
+    if (s.includes('TPDS')) return 'IEEE Transactions on Parallel and Distributed Systems';
     if (s.includes('TMC')) return 'IEEE Transactions on Mobile Computing';
-    if (s.includes('JSAC')) return 'IEEE Journal on Selected Areas in Communications';
-    if (s.includes('TGCN')) return 'IEEE Transactions on Green Communications and Networking';
+    if (s.includes('TIP')) return 'IEEE Transactions on Image Processing';
+    if (s.includes('TMM')) return 'IEEE Transactions on Multimedia';
+    if (s.includes('TSP')) return 'IEEE Transactions on Signal Processing';
+    if (s.includes('TNNLS')) return 'IEEE Transactions on Neural Networks and Learning Systems';
+    if (s.includes('TCYB')) return 'IEEE Transactions on Cybernetics';
+    if (s.includes('TEC')) return 'IEEE Transactions on Evolutionary Computation';
+    if (s.includes('TFS')) return 'IEEE Transactions on Fuzzy Systems';
+    if (s.includes('TAC')) return 'IEEE Transactions on Affective Computing';
+    if (s.includes('TITS')) return 'IEEE Transactions on Intelligent Transportation Systems';
+    if (s.includes('TVT')) return 'IEEE Transactions on Vehicular Technology';
+    if (s.includes('TMI')) return 'IEEE Transactions on Medical Imaging';
+    if (s.includes('TBD')) return 'IEEE Transactions on Big Data';
+    if (s.includes('TETCI')) return 'IEEE Transactions on Medical Imaging';
     if (s.includes('TNSE')) return 'IEEE Transactions on Network Science and Engineering';
+    if (s.includes('TCSS')) return 'IEEE Transactions on Computational Social Systems';
+    if (s.includes('JBHI')) return 'IEEE Journal of Biomedical and Health Informatics';
+    if (s.includes('TACL')) return 'Transactions of the Association for Computational Linguistics';
     if (s.includes('IoTJ') || s.includes('IOTJ')) return 'IEEE Internet of Things Journal';
-    if (s.includes('LNET') || s.includes('LNet')) return 'IEEE Networking Letters';
+    if (s.includes('PR')) return 'Pattern Recognition';
+    if (s.includes('NN')) return 'Neural Networks';
+    if (s.includes('KBS')) return 'Knowledge-Based Systems';
+    if (s.includes('ESWA')) return 'Expert Systems with Applications';
+    if (s.includes('EAAI')) return 'Engineering Applications of Artificial Intelligence';
+
+
 
     if (s.includes('NeurIPS')) return 'Annual Conference on Neural Information Processing Systems';
     if (s.includes('ICML')) return 'International Conference on Machine Learning';
+    if (s.includes('ICLR')) return 'International Conference on Learning Representations';
     if (s.includes('CVPR')) return 'IEEE/CVF Conference on Computer Vision and Pattern Recognition';
     if (s.includes('ICCV')) return 'IEEE/CVF International Conference on Computer Vision';
     if (s.includes('ECCV')) return 'European Conference on Computer Vision';
+    if (s.includes('MM')) return 'ACM International Conference on Multimedia';
     if (s.includes('ICRA')) return 'IEEE International Conference on Robotics and Automation';
     if (s.includes('AAAI')) return 'AAAI Conference on Artificial Intelligence';
-    if (s.includes('GLOBECOM')) return 'IEEE Global Communications Conference';
-    if (s.includes('INFOCOM')) return 'IEEE International Conference on Computer Communications';
-    if (s.includes('MOBICOM')) return 'Annual International Conference on Mobile Computing and Networking';
+    if (s.includes('IJCAI')) return 'International Joint Conference on Artificial Intelligence';
+    if (s.includes('SIGKDD')) return 'ACM SIGKDD Conference on Knowledge Discovery and Data Mining';
+    if (s.includes('ICDE')) return 'IEEE International Conference on Data Engineering';
+    if (s.includes('SIGMOD')) return 'ACM SIGMOD Conference';
+    if (s.includes('SIGIR')) return 'International ACM SIGIR Conference on Research and Development in Information Retrieval';
+    if (s.includes('VLDB')) return 'International Conference on Very Large Data Bases';
+    if (s.includes('CIKM')) return 'ACM International Conference on Information and Knowledge Management';
+    if (s.includes('WWW')) return 'The Web Conference';
+    if (s.includes('ACL')) return 'Annual Meeting of the Association for Computational Linguistics';
+    if (s.includes('EMNLP')) return 'Conference on Empirical Methods in Natural Language Processing';
+    if (s.includes('COLING')) return 'International Conference on Computational Linguistics';
+    if (s.includes('MICCAI')) return 'International Conference on Medical Image Computing and Computer Assisted Intervention';
+    if (s.includes('BIBM')) return 'IEEE International Conference on Bioinformatics and Biomedicine';
 
     if (s.toLowerCase().includes('arxiv')) return 'arXiv preprint';
 

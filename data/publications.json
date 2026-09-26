@@ -65,19 +65,260 @@
     ]
   },
   {
+    "title": "Subgraph Neural Networks with Multi-Scale Contrastive Learning for Graph Classification",
+    "displayTitle": "",
+    "authors": "<strong>Minglong Lei</strong>, Can Zhang, Hao Jia, Junzhong Ji*",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "TETCI",
+    "year": "2026",
+    "highlight": "(SCI, JCR Q1)",
+    "thumbnail": "assets/publications/placeholder/TETCI2026-SumCL.png",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=Subgraph%20Neural%20Networks%20with%20Multi-Scale%20Contrastive%20Learning%20for%20Graph%20Classification"
+      }
+    ]
+  },
+  {
     "title": "Multi-Scale Spatio-Temporal Transformers with Prompt Learning for Traffic Prediction",
     "displayTitle": "",
-    "authors": "Ruibin Zeng, Lingfeng Niu, <strong>Minglong Lei*<strong>, Yu-Hong Dai",
+    "authors": "Ruibin Zeng, Lingfeng Niu, <strong>Minglong Lei*</strong>, Yu-Hong Dai",
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
     "featuredOrder": 4,
     "venue": "TVT",
-    "year": "2024",
-    "highlight": "",
-    "thumbnail": "assets/publications/placeholder/CIKM2024-PKD-STTN.png",
+    "year": "2026",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "assets/publications/placeholder/TVT2026-MTP.png",
     "tags": [
-      { "text": "Paper", "link": "https://dl.acm.org/doi/pdf/10.1145/3627673.3679841" }
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/11660391" }
+    ]
+  },
+  {
+    "title": "Spatio-Temporal Transformer Network for Weather Forecasting",
+    "displayTitle": "",
+    "authors": "Junzhong Ji, Jing He, <strong>Minglong Lei*</strong>, Muhua Wang, and Wei Tang",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 4,
+    "venue": "TBD",
+    "year": "2024",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "assets/publications/placeholder/TBD2025-STTN.png",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10473200" }
+    ]
+  },
+  {
+    "title": "Supervised Contrastive Learning with Structure Inference for Graph Classification",
+    "displayTitle": "",
+    "authors": "Junzhong Ji, Hao Jia, Yating Ren, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 4,
+    "venue": "TNSE",
+    "year": "2023",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "assets/publications/placeholder/TNSE2023-SupCosine.png",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10473200" }
+    ]
+  },
+  {
+    "title": "Self-Supervised Spatiotemporal Graph Neural Networks with Self-Distillation for Traffic Prediction",
+    "displayTitle": "",
+    "authors": "Junzhong Ji, Fan Yu, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "TITS",
+    "year": "2023",
+    "highlight": "(SCI, JCR Q1)",
+    "thumbnail": "assets/publications/placeholder/TITS2023-SSGNN.png",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1109/TITS.2022.3219626"
+      }
+    ]
+  },
+  {
+    "title": "DigGCN: Learning Compact Graph Convolutional Networks via Diffusion Aggregation",
+    "displayTitle": "",
+    "authors": "<strong>Minglong Lei</strong>, Pei Quan, Rongrong Ma, Yong Shi, Lingfeng Niu*",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "TCYB",
+    "year": "2022",
+    "highlight": "(SCI, JCR Q1)",
+    "thumbnail": "assets/publications/placeholder/TCYB2022-DigGCN.png",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1109/TCYB.2020.2988791"
+      }
+    ]
+  },
+  {
+    "title": "Structural Entropy Guided Hyperbolic Graph Transformer for Graph Partitioning",
+    "displayTitle": "",
+    "authors": "Zhengxi Yang, Lingfeng Niu, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "Applied Soft Computing",
+    "year": "2026",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1016/j.asoc.2026.116367"
+      }
+    ]
+  },
+  {
+    "title": "MuDiS-GDA: Multiscale Discriminative Graph Domain Adaptation",
+    "displayTitle": "",
+    "authors": "Can Zhang, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "NN",
+    "year": "2026",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "assets/publications/placeholder/NN2026-MuDiS-GDA.png",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1016/j.neunet.2025.108412"
+      }
+    ]
+  },
+  {
+    "title": "Graph Transformer with High-Degree Nodes Anchoring for Graph Partitioning",
+    "displayTitle": "",
+    "authors": "Zhengxi Yang, Lingfeng Niu, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "NN",
+    "year": "2026",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1016/j.neunet.2025.108411"
+      }
+    ]
+  },
+  {
+    "title": "Latent Diffusion Transformer for Point Cloud Generation",
+    "displayTitle": "",
+    "authors": "Junzhong Ji, Runfeng Zhao, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "The Visual Computer",
+    "year": "2024",
+    "highlight": "(JCR Q2)",
+    "thumbnail": "assets/publications/placeholder/VisCom2024-LDT.png",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1007/s00371-024-03396-1"
+      }
+    ]
+  },
+  {
+    "title": "Two-Level Adversarial Attacks for Graph Neural Networks",
+    "displayTitle": "",
+    "authors": "Chenxi Song, Lingfeng Niu, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "IS",
+    "year": "2023",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1016/j.ins.2023.119877"
+      }
+    ]
+  },
+  {
+    "title": "FC-HAT: Hypergraph Attention Network for Functional Brain Network Classification",
+    "displayTitle": "",
+    "authors": "Junzhong Ji, Yating Ren, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "IS",
+    "year": "2022",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "assets/publications/placeholder/IS2022-FC-HAT.png",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1016/j.ins.2022.07.041"
+      }
+    ]
+  },
+  {
+    "title": "Self-Supervised Knowledge Distillation for Complementary Label Learning",
+    "displayTitle": "",
+    "authors": "Jiabin Liu, Biao Li*, <strong>Minglong Lei*</strong>, Yong Shi",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "NN",
+    "year": "2022",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1016/j.neunet.2022.08.014"
+      }
+    ]
+  },
+  {
+    "title": "Deep Attributed Graph Clustering with Self-Separation Regularization and Parameter-Free Cluster Estimation",
+    "displayTitle": "",
+    "authors": "Junzhong Ji, Ye Liang, <strong>Minglong Lei*</strong>",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "featuredOrder": 0,
+    "venue": "NN",
+    "year": "2021",
+    "highlight": "(JCR Q1)",
+    "thumbnail": "",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "https://doi.org/10.1016/j.neunet.2021.07.012"
+      }
     ]
   }
 ]

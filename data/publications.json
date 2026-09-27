@@ -6,11 +6,11 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 1,
+    "featuredOrder": 0,
     "venue": "NeurIPS 2026",
     "year": "2026",
     "highlight": "(Poster)",
-    "thumbnail": "assets/publications/placeholder/NeurIPS2026-DACS.png",
+    "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "#" },
       { "text": "Code", "link": "#" },
@@ -23,11 +23,11 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 2,
+    "featuredOrder": 0,
     "venue": "ICML 2026",
     "year": "2026",
     "highlight": "(Spotlight)",
-    "thumbnail": "assets/publications/placeholder/ICML2026-PSAHS.png",
+    "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "https://openreview.net/pdf?id=OkyO74bJqE" }
     ]
@@ -39,11 +39,11 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 3,
+    "featuredOrder": 0,
     "venue": "AAAI 2025",
     "year": "2025",
     "highlight": "(Poster)",
-    "thumbnail": "assets/publications/placeholder/AAAI2025-DST-Mamba.png",
+    "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "https://ojs.aaai.org/index.php/AAAI/article/view/33281" }
     ]
@@ -55,11 +55,11 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 4,
+    "featuredOrder": 0,
     "venue": "CIKM 2024",
     "year": "2024",
     "highlight": "(Regular Paper)",
-    "thumbnail": "assets/publications/placeholder/CIKM2024-PKD-STTN.png",
+    "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "https://dl.acm.org/doi/pdf/10.1145/3627673.3679841" }
     ]
@@ -75,7 +75,7 @@
     "venue": "TETCI",
     "year": "2026",
     "highlight": "(JCR Q1)",
-    "thumbnail": "assets/publications/placeholder/TETCI2026-SumCL.png",
+    "thumbnail": "",
     "tags": [
       {
         "text": "Paper",
@@ -90,11 +90,11 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 4,
+    "featuredOrder": 0,
     "venue": "TVT",
     "year": "2026",
     "highlight": "(JCR Q1)",
-    "thumbnail": "assets/publications/placeholder/TVT2026-MTP.png",
+    "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/11660391" }
     ]
@@ -106,11 +106,11 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 4,
+    "featuredOrder": 0,
     "venue": "TBD",
     "year": "2024",
     "highlight": "(JCR Q1)",
-    "thumbnail": "assets/publications/placeholder/TBD2025-STTN.png",
+    "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10473200" }
     ]
@@ -122,11 +122,11 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 4,
+    "featuredOrder": 0,
     "venue": "TNSE",
     "year": "2023",
     "highlight": "(JCR Q1)",
-    "thumbnail": "assets/publications/placeholder/TNSE2023-SupCosine.png",
+    "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "https://ieeexplore.ieee.org/abstract/document/10473200" }
     ]
@@ -142,7 +142,7 @@
     "venue": "TITS",
     "year": "2023",
     "highlight": "(SCI, JCR Q1)",
-    "thumbnail": "assets/publications/placeholder/TITS2023-SSGNN.png",
+    "thumbnail": "",
     "tags": [
       {
         "text": "Paper",
@@ -161,7 +161,7 @@
     "venue": "TCYB",
     "year": "2022",
     "highlight": "(SCI, JCR Q1)",
-    "thumbnail": "assets/publications/placeholder/TCYB2022-DigGCN.png",
+    "thumbnail": "",
     "tags": [
       {
         "text": "Paper",
@@ -199,7 +199,7 @@
     "venue": "NN",
     "year": "2026",
     "highlight": "(JCR Q1)",
-    "thumbnail": "assets/publications/placeholder/NN2026-MuDiS-GDA.png",
+    "thumbnail": "",
     "tags": [
       {
         "text": "Paper",
@@ -237,7 +237,7 @@
     "venue": "The Visual Computer",
     "year": "2024",
     "highlight": "(JCR Q2)",
-    "thumbnail": "assets/publications/placeholder/VisCom2024-LDT.png",
+    "thumbnail": "",
     "tags": [
       {
         "text": "Paper",
@@ -260,7 +260,7 @@
     "tags": [
       {
         "text": "Paper",
-        "link": "https://doi.org/10.1016/j.ins.2023.119877"
+        "link": ""
       }
     ]
   },
@@ -275,7 +275,7 @@
     "venue": "IS",
     "year": "2022",
     "highlight": "(JCR Q1)",
-    "thumbnail": "assets/publications/placeholder/IS2022-FC-HAT.png",
+    "thumbnail": "",
     "tags": [
       {
         "text": "Paper",

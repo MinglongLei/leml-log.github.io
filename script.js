@@ -520,11 +520,14 @@ function getHighlightBadge(highlightText) {
     if (text.includes('regular paper')) {
         return 'Regular Paper';
     }
-    if (text.includes('JCR Q1')) {
-        return 'JCR-Q1';
+    if (text.includes('poster')) {
+        return 'Poster';
     }
-    if (text.includes('JCR Q2')) {
-        return 'JCR-Q2';
+    if (text.includes('Q1')) {
+        return 'JCR Q1';
+    }
+    if (text.includes('Q2')) {
+        return 'JCR Q2';
     }
     return '';
 }

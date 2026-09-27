@@ -604,7 +604,7 @@ function getVenueShortName(venueStr, year) {
     if (s.includes('KBS')) return 'KBS' + revisionSuffix;
     if (s.includes('ESWA')) return 'ESWA' + revisionSuffix;
     if (s.includes('EAAI')) return 'EAAI' + revisionSuffix;
-    if (s.includes('IS')) return 'IS' + revisionSuffix; 
+    if (s.includes('InS')) return 'InS' + revisionSuffix; 
 
     return s || 'Preprint';
 }
@@ -645,7 +645,7 @@ function getVenueFullName(venueStr) {
     if (s.includes('KBS')) return 'Knowledge-Based Systems';
     if (s.includes('ESWA')) return 'Expert Systems with Applications';
     if (s.includes('EAAI')) return 'Engineering Applications of Artificial Intelligence';
-    if (s.includes('IS')) return 'Information Sciences';
+    if (s.includes('InS')) return 'Information Sciences';
 
 
     if (s.includes('NeurIPS')) return 'Annual Conference on Neural Information Processing Systems';
